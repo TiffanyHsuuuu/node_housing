@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const PostModel = require('./models/Post')
+const PostModel = require('./Models/Post')
 
 const sequelize = new Sequelize('postgres://localhost:5432/housing', {
   logging: false,
